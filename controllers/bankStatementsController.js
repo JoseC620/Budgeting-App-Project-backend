@@ -7,8 +7,8 @@ bankStatements.get("/", ( req, res ) => {
 });
 
 bankStatements.post('/', (req, res) => {
-    const newLog = req.body
-    bankStatementsArray.push(newLog)
+    const newBankStatement = req.body
+    bankStatementsArray.push(newBankStatement)
     res.status(202).json({success: true, payload: bankStatementsArray})
 });
 
@@ -19,7 +19,7 @@ bankStatements.get('/:id', (req, res) => {
     if (bankStatement) {
         res.status(202).json(bankStatementsArray[id])
     } else {
-        res.redirect(301, '/bankstatements');
+        res.redirect(301, '/statements');
     }
 });
 

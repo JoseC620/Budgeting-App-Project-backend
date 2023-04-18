@@ -6,7 +6,7 @@ const bankStatementsController = require("./controllers/bankStatementsController
 
 app.use(cors());
 app.use(express.json())
-app.use("/bankstatements", bankStatementsController)
+app.use("/statements", bankStatementsController)
 
 app.get(("/"), ( req, res ) => {
     res.send("welcome to the bank statements")
