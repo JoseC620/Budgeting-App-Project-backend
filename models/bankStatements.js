@@ -6,7 +6,6 @@ module.exports = [
         date: "April 1",
         from: "Coding Job",
         category: "Income",
-        withdrawl: false,
         deposit: true
     },
     {
@@ -16,7 +15,6 @@ module.exports = [
         date: "April 1",
         from: "Gas Station",
         category: "Personal Spending",
-        withdrawl: true,
         deposit: false
     },
     {
@@ -26,7 +24,6 @@ module.exports = [
         date: "April 1",
         from: "Restaurant",
         category: "Food",
-        withdrawl: true,
         deposit: false
     },
     {
@@ -36,7 +33,6 @@ module.exports = [
         date: "April 1",
         from: "Checkings Account",
         category: "Transfer",
-        withdrawl: true,
         deposit: false
     }
 ]
